@@ -1,28 +1,24 @@
-# 🏦 German Credit Risk Dashboard | Power BI
+# 🚗 Bengaluru OLA Performance Dashboard | Power BI
 
 ## 📌 Project Overview
-Analyzed **1,000 German bank loan applications** to identify credit risk and default patterns.
+Analyzed **1,03,000+ ride bookings** to uncover performance patterns in Bengaluru for July.
 
 ## 🛠️ Tools Used
 - **Power BI** (DAX, Power Query)
-- **Dataset:** German Credit Risk Dataset (Kaggle)
+- **Dataset:** OLA Ride Bookings Dataset
 
 ## 📊 Key Insights
 | # | Insight |
 |---|---|
-| 1 | **30% default rate** — 300 bad loans out of 1,000 |
-| 2 | **Radio/Television** most common loan purpose (280 applications) |
-| 3 | **Skilled employees** dominate borrowers (444 cases) |
-| 4 | Existing credit history customers show highest default risk |
+| 1 | Total Revenue: **₹57M+** with 62% Ride Success Rate |
+| 2 | **39K cancelled rides** — major revenue loss |
+| 3 | Avg Driver Rating: **4.0** |
+| 4 | Avg Ride Distance: **14.19 km** |
+| 5 | Customer vs Driver cancellation reasons identified |
 
 ## 📈 Dashboard Features
-- KPI cards — Total Applications, Good vs Bad Loans, Default Rate
-- Loan purpose breakdown
-- Employment type analysis
-- Housing type distribution
-- Interactive slicers for Purpose, Housing, Employment
-
-## 💡 Business Recommendations
-- Tighten credit criteria for existing credit history customers
-- Monitor Radio/TV loan category more closely
-- Use dashboard for real-time credit decision support
+- KPI cards — Revenue, Success Rate, Cancellation Rate
+- Day-wise revenue trend
+- Vehicle type treemap
+- Booking status donut chart
+- Payment method distribution
